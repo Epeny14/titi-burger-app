@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url("../img/banniere.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.logo {
+    width: 170px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+/*--------- Borders sections-----------------*/
+.text-collect {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-delivery {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.borders-sections {
+    display: flex;
+    flex-direction: row;
+    /* float: right; */
+    margin-top: -100px;
+    margin-left: 1160px;
+}
+
+.under-section-1 {
+    border: 1px solid #F59606;
+    background-color: #F59606;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: -120px;
+    width: 145px;
+    height: 40px;
+}
+
+.under-section-2 {
+    border: 1px solid #F59606;
+    background-color: #F59606;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 56px;
+    width: 145px;
+    height: 40px;
+}
