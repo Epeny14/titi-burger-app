@@ -7,6 +7,9 @@ import Img4 from '../assets/img/Burger2.jpg';
 import Img5 from '../assets/img/Burger3.jpg';
 import Img6 from '../assets/img/Burger4.jpg';
 import Img7 from '../assets/img/Burger-5.jpg';
+import Img8 from '../assets/img/Burger4.jpg';
+import Img9 from "../assets/img/Jus.jpg";
+import Img10 from "../assets/img/Burger6.jpg";
 
 const images = [Img3, Img4, Img5, Img6, Img7];
 
@@ -100,6 +103,52 @@ const MainHome = () => {
                         <button className="carousel-button right" onClick={nextSlide}>
                             ❯
                         </button>
+                    </div>
+                </div>
+            </div>
+
+            <div className='section-3'>
+                <div className="under-title">
+                    <h1 className="title-news">Actus</h1>
+                </div>
+                <div className='section-flex'>
+                    <div className="under-section-flex-1">
+                        <h4 className='title-article-1'>Article 1</h4>
+                        <img src={Img8} alt='image' className="img-article-1"></img>
+                        <div className="button-section-1">
+                            <p className='paragraph-plus-1'>En savoir +</p>
+                        </div>
+                    </div>
+                    <div className="under-section-flex-2">
+                        <h4 className='title-article-2'>Article 2</h4>
+                        <img src={Img9} alt='image' className="img-article-2"></img>
+                        <div className="button-section-2">
+                            <p className='paragraph-plus-2'>En savoir +</p>
+                        </div>
+                    </div>
+                    <div className="under-section-flex-3">
+                        <h4 className='title-article-3'>Article 3</h4>
+                        <img src={Img10} alt='image' className="img-article-3"></img>
+                        <div className="button-section-3">
+                            <p className='paragraph-plus-3'>En savoir +</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='section-newsletter'>
+                <div className='newsletter-flex'>
+                    <div className='flex-1'>
+                        <p>Des offres et des actus</p>
+                        <p>Chaque semaine sur Titi Burger</p>
+                    </div>
+                    <div className='flex-2'>
+                        <p>c'est par ici</p>
+                    </div>
+                    <div className='flex-3'>
+                        <form>
+                            <input type='text' id='name'></input>
+                        </form>
                     </div>
                 </div>
             </div>
