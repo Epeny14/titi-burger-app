@@ -10,6 +10,11 @@ import Img7 from '../assets/img/Burger-5.jpg';
 import Img8 from '../assets/img/Burger4.jpg';
 import Img9 from "../assets/img/Jus.jpg";
 import Img10 from "../assets/img/Burger6.jpg";
+import Img11 from "../assets/img/Polygon 4.svg";
+import Img12 from "../assets/img/icon-send.png";
+import Img13 from "../assets/img/Instagram.png";
+import Img14 from "../assets/img/Facebook.png";
+import Img15 from "../assets/img/TikTok.png";
 
 const images = [Img3, Img4, Img5, Img6, Img7];
 
@@ -139,16 +144,63 @@ const MainHome = () => {
             <div className='section-newsletter'>
                 <div className='newsletter-flex'>
                     <div className='flex-1'>
-                        <p>Des offres et des actus</p>
-                        <p>Chaque semaine sur Titi Burger</p>
+                        <p className="text-titi-1">Des offres et des actus</p>
+                        <p className="text-titi-2">Chaque semaine sur Titi Burger</p>
                     </div>
                     <div className='flex-2'>
-                        <p>c'est par ici</p>
+                        <p className="under-flex-14">c'est par ici</p>
+                        <img src={Img11} alt="flesh" className="right-arrow"></img>
                     </div>
                     <div className='flex-3'>
+                        <p className="text-newsletter">Inscription à Newsletter</p>
                         <form>
-                            <input type='text' id='name'></input>
+                            <input type='text' id="form" className="forms"></input>
+                            <input type="button" className="button"></input>
+                            <img src={Img12} alt="button image" className="btn-img-1"></img>
                         </form>
+                    </div>
+                </div>
+            </div>
+
+            <div className="footer">
+                <div className='under-section-footer'>
+
+
+                    <div className='under-footer-1'>
+                        <ul className='footer-list-1'>
+                            <li className="list-legal">Mention legales</li>
+                            <li className="list-cgu">CGU</li>
+                            <li className="list-cgv">CGV</li>
+                        </ul>
+                    </div>
+                    <div className='under-footer-2'>
+                        <ul className='footer-list-2'>
+                            <li className="list-web">Plan du site</li>
+                            <li className="list-map">La carte</li>
+                            <li className="list-titi-1">Titi Story</li>
+                            <li className="list-story-1">Le Story</li>
+                            <li className="list-actu">Actu</li>
+                        </ul>
+                    </div>
+                    <div className='under-footer-3'>
+                        <ul className='footer-list-3'>
+                            <li>Où nous trouver</li>
+
+                        </ul>
+                    </div>
+                    <div className='under-footer-4'>
+                        <ul className='footer-list-4'>
+                            <li className="list-contact">Contact</li>
+                            <li className="list-find">Où nous trouver</li>
+                            <li className='list-faq'>FAQ</li>
+                        </ul>
+                    </div>
+                    <div className='under-footer-5'>
+                        <ul className='footer-list-5'>
+                            <li><img src={Img13} alt="logo instagram" className="logo-insta"></img></li>
+                            <li><img src={Img14} alt="logo facebook" className="logo-facebook"></img></li>
+                            <li><img src={Img15} alt="logo tik tok" className="logo-tiktok"></img></li>
+                        </ul>
                     </div>
                 </div>
             </div>
