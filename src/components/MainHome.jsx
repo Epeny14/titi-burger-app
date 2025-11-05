@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/styles/accueil.css';
 import Img1 from '../assets/img/Logo Titi Burger.svg';
 import Img2 from '../assets/img/resto.jpg';
@@ -44,7 +45,9 @@ const MainHome = () => {
 
                 <div className='borders-sections'>
                     <div className='under-section-1'>
-                        <p className='text-collect'>Click & collect</p>
+                        <Link to="/clickcollect" className="link-collect">
+                            <p className='text-collect'>Click & collect</p>
+                        </Link>
                     </div>
 
                     <div className='under-section-2'>

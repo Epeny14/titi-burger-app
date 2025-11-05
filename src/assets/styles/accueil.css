@@ -24,6 +24,10 @@
     margin-top: 10px;
 }
 
+.link-collect {
+    text-decoration: none;
+}
+
 .text-delivery {
     color: #fff;
     text-align: center;
