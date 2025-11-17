@@ -8,6 +8,8 @@ import Img4 from "../assets/img/Bicycle.png";
 import Img5 from "../assets/img/Instagram.png";
 import Img6 from "../assets/img/Facebook.png";
 import Img7 from "../assets/img/TikTok.png";
+import Img8 from "../assets/img/Clic & Collect.png";
+import Img9 from "../assets/img/Line 11.png";
 
 
 
@@ -19,12 +21,38 @@ const SectionCollect = () => {
                     <img src={Img1} alt="logo-titi" className="logo-section"></img>
                 </div>
 
-                <div className="section-border">
-                    <div className="logo-titi-3">
-                        <img src={Img2} alt="logo-titi-2" className="logo-border"></img>
+                <div className='borders-sections-11'>
+                    <div className='under-section-12'>
+                        <Link to="/clickcollect" className="link-collect-2">
+                            <p className='text-collect-2'>Click & collect</p>
+                        </Link>
                     </div>
-                    <p className="paragraph-order">Vous souhaitez commander</p>
-                    <div className="section-choice">
+
+                    <div className='under-section-13'>
+                        <p className='text-delivery-2'>Livraison</p>
+                    </div>
+                </div>
+
+
+                <div className="section-border">
+                    <div className="title-collect-1">
+                        <img src={Img8} alt="image-collect" className="img-collect"></img>
+                    </div>
+                    <div className="section-flash">
+                        <img src={Img9} alt="image-flash" className="flash-down"></img>
+                    </div>
+                    <div className="border-text">
+                        <p className="under-border-text-1">commander et déguster</p>
+                        <br />
+                        <p className="under-border-text-2">
+                            Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Enim mi<br /> at ultrices praesent posuere sit.<br /> Pulvinar
+                        </p>
+                    </div>
+                    {/* <div className="logo-titi-3">
+                        <img src={Img2} alt="logo-titi-2" className="logo-border"></img>
+                    </div> */}
+                    {/* <p className="paragraph-order">Vous souhaitez commander</p> */}
+                    {/* <div className="section-choice">
                         <div className="under-choice-1">
                             <Link to="/burgers" className="link-choice-1">
                                 <p className="away">Emporter</p>
@@ -37,6 +65,16 @@ const SectionCollect = () => {
                             </Link>
                             <img src={Img4} alt="logo-bicycle" className="img-bicycle"></img>
                         </div>
+                    </div> */}
+                </div>
+            </div>
+
+            <div className="section-start">
+                <div className="border-start">
+                    <div className="under-border-start">
+                        <Link to="/burgers">
+                            <p className="text-start">Commencer</p>
+                        </Link>
                     </div>
                 </div>
             </div>
