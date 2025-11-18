@@ -1,10 +1,10 @@
 import React from 'react'
+import SectionBurger from '../components/SectionBurger'
 
 const Burgers = () => {
     return (
         <div>
-            <h1>Bonjour</h1>
-            <p>Bienvenue dans la page nos burgers</p>
+            <SectionBurger />
         </div>
     )
 }
