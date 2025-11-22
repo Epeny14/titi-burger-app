@@ -63,20 +63,40 @@ const SectionBurger = () => {
                 <div className="menu-flex-1">
                     <div className="under-menu-flex-1">
                         <div className="flex-menu-1">
+                            <label className="radio">
+                                <input type="radio" checked></input>
+                                <span class="custom-radio"></span>
+
+                            </label>
                             <img src={Img13} alt="burger-image-1" className="burger-dark"></img>
                             <h5 className="titi-dark">Le Dark Burger</h5>
                         </div>
                         <div className="flex-menu-2">
+                            <label className="radio-1">
+                                <input type="radio" checked></input>
+                                <span class="custom-radio-1"></span>
+
+                            </label>
                             <img src={Img14} alt="burger-image-2" className="original-burger"></img>
                             <h5 className="titi-original">L'original Titi</h5>
                         </div>
                     </div>
                     <div className="under-menu-flex-2">
                         <div className="flex-menu-3">
+                            <label className="radio-2">
+                                <input type="radio" checked></input>
+                                <span class="custom-radio-2"></span>
+
+                            </label>
                             <img src={Img15} alt="burger-image-3" className="vegie-burger"></img>
                             <h5 className="titi-vegie">Vegie Burger</h5>
                         </div>
                         <div className="flex-menu-4">
+                            <label className="radio-3">
+                                <input type="radio" checked></input>
+                                <span class="custom-radio-3"></span>
+
+                            </label>
                             <img src={Img16} alt="burger-image-4" className="big-burger"></img>
                             <h5 className="titi-big">Le Big Big</h5>
                         </div>

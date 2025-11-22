@@ -120,23 +120,23 @@
     display: flex;
     position: absolute;
     margin-left: 585px;
-    margin-top: -35px;
+    margin-top: -130px;
 }
 
 .progress-tracker-1 {
     background-color: #D9D9D9;
     border: 15px solid #ADB7C6;
     border-radius: 15px;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     position: absolute;
 }
 
 .line-1 {
-    width: 21px;
+    width: 40px;
     position: absolute;
-    margin-top: 60px;
-    margin-left: 118px;
+    margin-top: 45px;
+    margin-left: 99px;
     background-color: #ADB7C6;
     height: 5px;
 }
@@ -145,17 +145,17 @@
     background-color: #D9D9D9;
     border: 15px solid #ADB7C6;
     border-radius: 15px;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     margin-left: 140px;
 }
 
 .line-2 {
-    width: 21px;
+    width: 40px;
     position: absolute;
-    margin-top: 60px;
-    margin-left: 259px;
+    margin-top: 45px;
+    margin-left: 239px;
     background-color: #ADB7C6;
     height: 5px;
 }
@@ -164,17 +164,17 @@
     background-color: #D9D9D9;
     border: 15px solid #ADB7C6;
     border-radius: 15px;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     margin-left: 280px;
 }
 
 .line-3 {
-    width: 22px;
+    width: 46px;
     position: absolute;
-    margin-top: 60px;
-    margin-left: 400px;
+    margin-top: 45px;
+    margin-left: 379px;
     height: 5px;
     background-color: #ADB7C6;
 }
@@ -183,8 +183,8 @@
     background-color: #D9D9D9;
     border: 15px solid #ADB7C6;
     border-radius: 15px;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     margin-left: 425px;
 }
@@ -192,34 +192,35 @@
 .line-4 {
     width: 100px;
     position: absolute;
-    margin-top: 60px;
-    margin-left: 544px;
+    margin-top: 45px;
+    margin-left: 524px;
     height: 5px;
     background-color: #ADB7C6;
 }
 
 .img-cards {
     position: absolute;
-    margin-left: 655px;
-    margin-top: 41px;
+    margin-left: 650px;
+    margin-top: 24px;
 }
 
 .paycheck {
     position: absolute;
     margin-left: 725px;
-    margin-top: 58px;
+    margin-top: 42px;
     color: #fff;
 }
 
 /*-------------- Menu Flex ------------------*/
 .menu-flex-1 {
     position: absolute;
-    margin-top: 630px;
-    border: 1px solid #fff;
+    margin-top: 460px;
+    border: 20px solid #fff;
+    background: rgb(255, 255, 255, 0.5);
     width: 820px;
     height: 500px;
     margin-left: 300px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .under-menu-flex-1 {
@@ -227,6 +228,15 @@
     justify-content: space-between;
     position: absolute;
     margin-top: 25px;
+    margin-left: 50px;
+}
+
+.radio {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 70px;
     margin-left: 50px;
 }
 
@@ -314,4 +324,155 @@
     margin-left: 60px;
     height: 170px;
     margin-left: 280px;
+}
+
+/*------------ Radio  -------------*/
+
+.radio input {
+    display: none;
+}
+
+.custom-radio {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #5a6e8a;
+    /* cercle extérieur */
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.radio input:checked+.custom-radio::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #5a6e8a;
+    /* point central */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/*------------ Radio - 1 -------------*/
+.radio-1 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 230px;
+
+}
+
+.radio-1 input {
+    display: none;
+}
+
+.custom-radio-1 {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #5a6e8a;
+    /* cercle extérieur */
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.radio-1 input:checked+.custom-radio-1::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #5a6e8a;
+    /* point central */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/*------------ Radio - 2 -------------*/
+
+.radio-2 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+
+}
+
+.radio-2 input {
+    display: none;
+}
+
+.custom-radio-2 {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #5a6e8a;
+    /* cercle extérieur */
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.radio-2 input:checked+.custom-radio-2::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #5a6e8a;
+    /* point central */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/*------------ Radio - 3 -------------*/
+
+.radio-3 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 230px;
+
+}
+
+.radio-3 input {
+    display: none;
+}
+
+.custom-radio-3 {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #5a6e8a;
+    /* cercle extérieur */
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.radio-3 input:checked+.custom-radio-3::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #5a6e8a;
+    /* point central */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
