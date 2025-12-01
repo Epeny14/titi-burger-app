@@ -8,6 +8,9 @@ import Img13 from "../assets/img/Burger4.jpg";
 import Img14 from "../assets/img/Burger1.jpg";
 import Img15 from "../assets/img/Burger2.jpg";
 import Img16 from "../assets/img/Burger3.jpg";
+import Img17 from "../assets/img/Instagram.png";
+import Img18 from "../assets/img/Facebook.png";
+import Img19 from "../assets/img/TikTok.png";
 
 
 const SectionBurger = () => {
@@ -100,6 +103,57 @@ const SectionBurger = () => {
                             <img src={Img16} alt="burger-image-4" className="big-burger"></img>
                             <h5 className="titi-big">Le Big Big</h5>
                         </div>
+                    </div>
+                </div>
+
+                <div className="section-start-2">
+                    <div className="border-start-2">
+                        <div className="under-border-start-2">
+                            <Link to="/support">
+                                <p className="text-start-2">Commencer</p>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div className="footer-burger">
+                <div className='under-section-footer-burger'>
+                    <div className='under-footer-burger-1'>
+                        <ul className='footer-list-burger'>
+                            <li className="list-legal-collect-burger">Mention legales</li>
+                            <li className="list-cgu-collect-burger">CGU</li>
+                            <li className="list-cgv-collect-burger">CGV</li>
+                        </ul>
+                    </div>
+                    <div className='under-footer-burger-2'>
+                        <ul className='footer-list-burger-1'>
+                            <li className="list-web-collect-burger">Plan du site</li>
+                            <li className="list-map-collect-burger">La carte</li>
+                            <li className="list-titi-collect-burger">Titi Story</li>
+                            <li className="list-story-collect-burger">Le Story</li>
+                            <li className="list-actu-collect-burger">Actu</li>
+                        </ul>
+                    </div>
+                    <div className='under-footer-burger-3'>
+                        <ul className='footer-list-burger-2'>
+                            <li>Où nous trouver</li>
+
+                        </ul>
+                    </div>
+                    <div className='under-footer-burger-4'>
+                        <ul className='footer-list-burger-3'>
+                            <li className="list-contact-collect-burger">Contact</li>
+                            <li className="list-find-collect-burger">Où nous trouver</li>
+                            <li className='list-faq-collect-burger'>FAQ</li>
+                        </ul>
+                    </div>
+                    <div className='under-footer-burger-5'>
+                        <ul className='footer-list-burger-4'>
+                            <li><img src={Img17} alt="logo instagram" className="logo-insta-burger-1"></img></li>
+                            <li><img src={Img18} alt="logo facebook" className="logo-facebook-burger-2"></img></li>
+                            <li><img src={Img19} alt="logo tik tok" className="logo-tiktok-burger-3"></img></li>
+                        </ul>
                     </div>
                 </div>
             </div>

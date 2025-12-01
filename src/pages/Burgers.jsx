@@ -1,5 +1,5 @@
-import React from 'react'
-import SectionBurger from '../components/SectionBurger'
+import React from 'react';
+import SectionBurger from '../components/SectionBurger';
 
 const Burgers = () => {
     return (
