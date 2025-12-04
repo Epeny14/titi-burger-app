@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------------ Menu Section Drink -----------------*/
+.menu-section-drink {
+    background: url("../img/banniere.jpg");
+    background-size: cover;
+    height: 1190px;
+}
+
+.logo-titi-drink {
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+/*--------- Borders sections 60-----------------*/
+.text-collect-drink {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link-collect-drink {
+    text-decoration: none;
+}
+
+.text-delivery-drink {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.borders-sections-drink {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 1160px;
+    position: absolute;
+}
+
+.under-section-drink {
+    border: 1px solid #F59606;
+    background-color: #F59606;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: -120px;
+    width: 145px;
+    height: 40px;
+}
+
+.under-section-drink-2 {
+    border: 1px solid #F59606;
+    background-color: #F59606;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 56px;
+    width: 145px;
+    height: 40px;
+}
+
+
+/*----------- Section Flex Drink ----------------*/
+.section-flex-drink {
+    position: absolute;
+    margin-top: 180px;
+    display: flex;
+    margin-left: 75px;
+}
+
+.section-description-drink {
+    position: absolute;
+    margin-left: 150px;
+    width: 260px;
+    margin-top: -40px;
+}
+
+.title-drink-60 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.description-drink-1 {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.section-collect-drink {
+    position: absolute;
+    margin-left: 970px;
+    width: 220px;
+    margin-top: -40px;
+}
+
+.img-drink {
+    position: absolute;
+    width: 222px;
+}
+
+.under-description-drink {
+    color: #fff;
+    position: absolute;
+    font-size: 19px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+
+/*------------ Section Progress Drink --------------*/
+.section-progress-drink {
+    margin-top: 434px;
+    position: absolute;
+}
+
+.under-tracker-drink {
+    display: flex;
+    position: absolute;
+    margin-left: 585px;
+    margin-top: -180px;
+}
+
+.progress-tracker-9 {
+    background-color: #D9D9D9;
+    border: 15px solid #ADB7C6;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 33px;
+}
+
+.line-9 {
+    width: 40px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 121px;
+    background-color: #ADB7C6;
+    height: 5px;
+}
+
+.progress-tracker-10 {
+    background-color: #D9D9D9;
+    border: 15px solid #ADB7C6;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 161px;
+}
+
+.line-10 {
+    width: 40px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 249px;
+    background-color: #ADB7C6;
+    height: 5px;
+}
+
+.progress-tracker-11 {
+    background-color: #D9D9D9;
+    border: 15px solid #ADB7C6;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 290px;
+}
+
+.line-11 {
+    width: 46px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 379px;
+    height: 5px;
+    background-color: #ADB7C6;
+}
+
+.progress-tracker-12 {
+    background-color: #D9D9D9;
+    border: 15px solid #ADB7C6;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 425px;
+}
+
+.line-12 {
+    width: 100px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 514px;
+    height: 5px;
+    background-color: #ADB7C6;
+}
+
+.img-cards-drink {
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 24px;
+}
+
+.paycheck-drink {
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 42px;
+    color: #fff;
+}
+
+
+/*-------------- Menu Flex Drink ------------------*/
+.menu-flex-drink {
+    position: absolute;
+    margin-top: 415px;
+    border: 20px solid #fff;
+    background: rgb(255, 255, 255, 0.5);
+    width: 820px;
+    height: 500px;
+    margin-left: 300px;
+    border-radius: 50px;
+}
+
+.under-menu-flex-drink {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.radio-8 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.burger-dark-drink {
+    width: 160px;
+    position: absolute;
+    height: 170px;
+    margin-left: 100px;
+}
+
+.flex-menu-drink {
+    position: absolute;
+}
+
+.titi-dark-drink {
+    color: #fff;
+    margin-top: 190px;
+    position: absolute;
+    margin-left: 148px;
+    white-space: nowrap;
+}
+
+.flex-menu-drink-2 {
+    position: absolute;
+    margin-left: 150px;
+}
+
+.original-burger-drink {
+    width: 190px;
+    position: absolute;
+    margin-left: 280px;
+    height: 170px;
+}
+
+.titi-original-drink {
+    color: #fff;
+    margin-top: 185px;
+    margin-left: 342px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.under-menu-flex-drink-2 {
+    display: flex;
+    margin-top: 270px;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.flex-menu-drink-3 {
+    position: absolute;
+}
+
+.titi-vegie-drink {
+    color: #fff;
+    margin-top: 182px;
+    position: absolute;
+    margin-left: 160px;
+    white-space: nowrap;
+}
+
+.vegie-burger-drink {
+    width: 160px;
+    position: absolute;
+    height: 170px;
+    margin-left: 100px;
+}
+
+.flex-menu-drink-4 {
+    position: absolute;
+    margin-left: 150px;
+}
+
+.titi-big-drink {
+    color: #fff;
+    margin-top: 181px;
+    position: absolute;
+    margin-left: 340px;
+    white-space: nowrap;
+}
+
+.big-burger-drink {
+    width: 190px;
+    position: absolute;
+    margin-left: 60px;
+    height: 170px;
+    margin-left: 280px;
+}
+
+/*------------ Radio-8  -------------*/
+
+.radio-8 input {
+    display: none;
+}
+
+.custom-radio-8 {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #5a6e8a;
+    /* cercle extérieur */
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.radio-8 input:checked+.custom-radio::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #5a6e8a;
+    /* point central */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/*------------ Radio - 9 -------------*/
+.radio-9 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 230px;
+
+}
+
+.radio-9 input {
+    display: none;
+}
+
+.custom-radio-9 {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #5a6e8a;
+    /* cercle extérieur */
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.radio-9 input:checked+.custom-radio-1::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #5a6e8a;
+    /* point central */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/*------------ Radio - 10 -------------*/
+
+.radio-10 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+
+}
+
+.radio-10 input {
+    display: none;
+}
+
+.custom-radio-10 {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #5a6e8a;
+    /* cercle extérieur */
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.radio-10 input:checked+.custom-radio-2::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #5a6e8a;
+    /* point central */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/*------------ Radio - 11 -------------*/
+
+.radio-11 {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 230px;
+
+}
+
+.radio-11 input {
+    display: none;
+}
+
+.custom-radio-11 {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #5a6e8a;
+    /* cercle extérieur */
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.radio-11 input:checked+.custom-radio-3::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #5a6e8a;
+    /* point central */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/*----------- Section Start Drink------------*/
+.section-start-drink {
+    height: 175px;
+    margin-top: 965px;
+    position: absolute;
+}
+
+/* .border-start-60 {
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 460px;
+    background: #576D8B;
+    height: 100px;
+    width: 600px;
+} */
+
+.under-border-start-drink {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 610px;
+    background: #F59606;
+    width: 280px;
+    height: 60px;
+}
+
+.text-start-drink {
+    color: #EEEEEE;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 110px;
+    font-size: 22px;
+}
+
+
+/*-------------Footer Drink-----------------*/
+.footer-drink {
+    background: #6341EB;
+}
+
+.under-section-footer-drink {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list-drink li {
+    list-style: none;
+    color: #EEEEEE;
+}
+
+.footer-list-drink {
+    margin-top: 10px;
+}
+
+.list-cgu-collect-drink {
+    margin-top: 10px;
+}
+
+.list-cgv-collect-drink {
+    margin-top: 10px;
+}
+
+.footer-list-drink-1 li {
+    list-style: none;
+    color: #EEEEEE;
+}
+
+.footer-list-drink-1 {
+    margin-top: 10px;
+}
+
+.list-web-collect-drink {
+    margin-top: 10px;
+}
+
+.list-map-collect-drink {
+    margin-top: 10px;
+}
+
+.list-titi-collect-drink {
+    margin-top: 10px;
+}
+
+.list-story-collect-drink {
+    margin-top: 10px;
+}
+
+.list-actu-collect-drink {
+    margin-top: 10px;
+}
+
+.footer-list-drink-2 li {
+    list-style: none;
+    color: #EEEEEE;
+}
+
+.footer-list-drink-2 {
+    margin-top: 10px;
+}
+
+.footer-list-drink-3 li {
+    list-style: none;
+    color: #EEEEEE;
+}
+
+.footer-list-drink-3 {
+    margin-top: 10px;
+}
+
+.list-contact-collect-drink {
+    margin-top: 10px;
+}
+
+.list-find-collect-drink {
+    margin-top: 10px;
+}
+
+.list-faq-collect-drink {
+    margin-top: 10px;
+}
+
+.footer-list-drink-4 li {
+    list-style: none;
+}
+
+.footer-list-drink-4 {
+    margin-top: 10px;
+}
+
+.logo-insta-drink-1 {
+    width: 50px;
+}
+
+.logo-facebook-drink-2 {
+    width: 50px;
+}
+
+.logo-tiktok-drink-3 {
+    width: 50px;
+}

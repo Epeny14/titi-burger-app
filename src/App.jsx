@@ -4,6 +4,7 @@ import ClickCollect from "./pages/ClickCollect";
 import Burgers from "./pages/Burgers";
 import Support from "./pages/Support";
 import Boissons from "./pages/Boissons";
+import Desserts from "./pages/Desserts";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/burgers" element={<Burgers />} />
         <Route path="/support" element={<Support />} />
         <Route path="/boissons" element={<Boissons />} />
+        <Route path="/desserts" element={<Desserts />} />
       </Routes>
     </BrowserRouter>
   )
